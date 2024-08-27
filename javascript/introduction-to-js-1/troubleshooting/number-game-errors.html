@@ -84,8 +84,7 @@
     guessField.focus();
   }
   
-  //guessSubmit.addeventListener('click', checkGuess);
-  checkGuess('guessSubmit.addeventlistener', 'click');
+  guessSubmit.addEventListener('click', checkGuess);
 
   function setGameOver() {
 	  guessField.disabled = true;
